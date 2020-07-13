@@ -1,0 +1,716 @@
+/* font-family: 'Reenie Beanie', cursive;
+font-family: 'Special Elite', cursive; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+.menu a{
+    padding: .2em;
+    font-size: 1.5vw;
+    font-family: 'Special Elite', cursive;
+    color: ghostwhite;
+    text-decoration: none;
+}
+.menu a:hover{
+    border-bottom: 1px solid ghostwhite;
+}
+.header{
+    height: 100vh;
+    display: flex;
+    background-image: url(img/read-1564105_1920.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.vc{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,1) 100%);
+}
+.info{
+    margin-left: 10em;
+    padding: 2em;
+    width: 40%;
+    height: 70%;
+    text-align: justify;
+    background-color: rgba(0,0,0,0.4);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.info h1{
+    font-family: 'Special Elite', cursive;
+    font-size: 2vw;
+    color: ghostwhite;
+}
+.info p{
+    margin-top: 1.5em;
+    font-family: 'Special Elite', cursive;
+    font-size: .9vw;
+    color: ghostwhite;
+}
+.inter{
+    height: 10vh;
+    font-family: 'Special Elite', cursive;
+    font-size: 3vw;
+    background-color: black;
+    color: ghostwhite;
+    text-align: center;
+    line-height: 10vh;
+}
+.biogram{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.wrapper{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(img/blackboard-1846865_1920.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.wrapper div{
+    width: 40%;
+    height: 30%;
+    background-color: rgba(0,0,0,0.1);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.wrapper div h1{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 3.5vw;
+    color: ghostwhite;
+}
+.biogram .modal1{
+    display: none;
+}
+.biogram .modal1.active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    background-image: url(img/paper-1074131_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.biogram .modal1 ul{
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+.biogram .modal1 ul li{
+    width: 90%;
+    height: 90%;
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    color: black;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.modal1 .hide i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    font-size: 2vw;
+    color: black;
+    background-image: url(img/paper-1074131_1920.jpg);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.biogram .modal2{
+    display: none;
+}
+.biogram .modal2.active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    background-image: url(img/paper-1074131_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.biogram .modal2 ul{
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+.biogram .modal2 ul li{
+    width: 90%;
+    height: 90%;
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    color: black;
+    font-size: 1vw;
+    text-align: justify;
+}
+.modal2 .hide i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    font-size: 2vw;
+    color: black;
+    background-image: url(img/paper-1074131_1920.jpg);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.biogram .modal3{
+    display: none;
+}
+.biogram .modal3.active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    background-image: url(img/paper-1074131_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.biogram .modal3 ul{
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+.biogram .modal3 ul li{
+    width: 90%;
+    height: 90%;
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    color: black;
+    font-size: 2vw;
+    text-align: justify;
+}
+.modal3 .hide i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    font-size: 2vw;
+    color: black;
+    background-image: url(img/paper-1074131_1920.jpg);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.biogram .modal4{
+    display: none;
+}
+.biogram .modal4.active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 100%;
+    background-image: url(img/paper-1074131_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.biogram .modal4 ul{
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+.biogram .modal4 ul li{
+    width: 90%;
+    height: 90%;
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    color: black;
+    font-size: 1vw;
+    text-align: justify;
+}
+.modal4 .hide i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    font-size: 2vw;
+    color: black;
+    background-image: url(img/paper-1074131_1920.jpg);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.publications{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.items div{
+    width: 40%;
+    height: 30%;
+    background-color: rgba(0,0,0,0.2);
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.items div h1{
+    font-family: 'Special Elite', cursive;
+    font-size: 2.5vw;
+    color: ghostwhite;
+}
+.items{
+    width: 90%;
+    height: 100%;
+    background-image: url(img/typewriter-1248088_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.publications .polish{
+    display: none;
+}
+.publications .polish.active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 250%;
+    background-image: url(img/paper-1074131_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.publications .polish ul{
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+.publications .polish ul li{
+    width: 90%;
+    height: 90%;
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    color: black;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.polish .hide i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    font-size: 2vw;
+    color: black;
+    background-image: url(img/paper-1074131_1920.jpg);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.publications .foreign{
+    display: none;
+}
+.publications .foreign.active{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 150%;
+    background-image: url(img/paper-1074131_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.publications .foreign ul{
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+}
+.publications .foreign ul li{
+    width: 90%;
+    height: 90%;
+    font-family: 'Special Elite', cursive;
+    font-weight: 400;
+    color: black;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+.foreign .hide i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    font-size: 2vw;
+    color: black;
+    background-image: url(img/paper-1074131_1920.jpg);
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.projects{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects-div{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(img/social-media-2528410_1920.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.pro{
+    width: 30%;
+    height: 40%;
+    color: ghostwhite;
+    background-color: rgba(172, 94, 42, 0.7);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 15px;
+}
+.pro p{
+    padding: .5em;
+    font-size: 1vw;
+    text-align: justify;
+    font-family: 'Special Elite', cursive;
+    height: 90%;
+}
+.pro p span{
+    font-size: 2vw;
+    font-family: 'Special Elite', cursive;
+}
+.footer{
+    height: 50vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contacts{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact{
+    width: 10em;
+    height: 10em;
+    background-color: red;
+    border-radius: 50%;
+}
+.contact:nth-child(1){
+    background-image: url(img/unnamed.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.contact:nth-child(2){
+    background-image: url(img/61109.png);
+    background-position: center;
+    background-size: cover;
+}
+.contact:nth-child(3){
+    background-image: url(img/pobrane.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.contact:nth-child(4){
+    background-image: url(img/2.jfif);
+    background-position: center;
+    background-size: cover;
+
+}
+.contact:nth-child(5){
+    background-image: url(img/4.jfif);
+    background-position: center;
+    background-size: cover;
+
+}
+.mail{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mail .adress{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mail .adress h1{
+    padding: .3em;
+    font-family: 'Special Elite', cursive;
+    font-weight: 400;
+    font-size: 1.2vw;
+    color: ghostwhite;
+}
+.mail .adress p{
+    padding: .3em;
+    font-family: 'Special Elite', cursive;
+    font-weight: 100;
+    font-size: 1vw;
+    color: ghostwhite;
+}
+.mail .image{
+    width: 25em;
+    height: 25em;
+    border-radius: 50%;
+    background-image: url(img/IMG_20180821_140529994_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* respons */
+
+@media(orientation:portrait){
+    .menu a{
+        font-size: 3vw;
+    }
+    .info{
+        margin-left: 2em;
+        width: 80%;
+        height: 70%;
+    }
+    .info h1{
+        font-size: 4vw;
+    }
+    .info p{
+        font-size: 3vw;
+    }
+    .biogram .modal1 ul li{
+        font-size: 3.5vw;
+    }
+    .modal1 .hide i{
+        font-size: 5vw;
+    }
+    .biogram .modal2 ul li{
+        font-size: 2.5vw;
+    }
+    .modal2 .hide i{
+        font-size: 5vw;
+    }
+    .biogram .modal3 ul li{
+        font-size: 4vw;
+    }
+    .modal3 .hide i{
+        font-size: 5vw;
+    }
+    .biogram .modal4 ul li{
+        font-size: 3vw;
+    }
+    .modal4 .hide i{
+        font-size: 5vw;
+    }
+    .publications .polish ul li{
+        font-size: 3vw;
+
+    }
+    .publications .foreign ul li{
+        font-size: 3vw;
+
+    }
+    .polish .hide i{
+        font-size: 5vw;
+    }
+    .foreign .hide i{
+        font-size: 5vw;
+    }
+    .projects{
+        height: 200vh;
+    }
+    .projects-div{
+        flex-direction: column;
+    }
+    .pro{
+        width: 90%;
+        height: 15%;
+    }
+    .pro p{
+        font-size: 2.4vw;
+    }
+    .pro p span{
+        font-size: 4vw;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .contacts{
+        width: 100%;
+        height: 50%;
+        order: 1;
+    }
+    .contact{
+        width: 3em;
+        height: 3em;
+        background-color: red;
+        border-radius: 50%;
+    }
+    .mail{
+        width: 100%;
+        height: 50%;
+    }
+    .mail .adress{
+        width: 50%;
+    }
+    .mail .adress h1{
+        font-size: 3vw;
+
+    }
+    .mail .adress p{
+        font-size: 2vw;
+    }
+    .mail .image{
+        width: 8em;
+        height: 8em;
+    }
+}
+@media(max-width:240px){
+    .menu a{
+        font-size: 3.5vw;
+    }
+    .info{
+        margin-left: 1em;
+        width: 90%;
+        height: 60%;
+    }
+    .info h1{
+        font-size: 3vw;
+    }
+    .info p{
+        font-size: 2.5vw;
+    }
+    .contact{
+        width: 2em;
+        height: 2em;
+    }
+    .mail .image{
+        width: 6em;
+        height: 6em;
+    }
+
+}
