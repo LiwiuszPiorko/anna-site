@@ -715,6 +715,10 @@ font-family: 'Special Elite', cursive; */
 
 }
 @media(max-width:1200px) and (orientation:landscape){
+    .contact{
+        width: 2em;
+        height: 2em;
+    }
     .mail .image{
         width: 7em;
         height: 7em;
