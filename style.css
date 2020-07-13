@@ -53,13 +53,13 @@ font-family: 'Special Elite', cursive; */
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 .info h1{
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-size: 2vw;
     color: ghostwhite;
 }
 .info p{
     margin-top: 1.5em;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-size: .9vw;
     color: ghostwhite;
 }
@@ -514,8 +514,8 @@ font-family: 'Special Elite', cursive; */
 }
 
 .contact{
-    width: 5em;
-    height: 5em;
+    width: 4em;
+    height: 4em;
     background-color: red;
     border-radius: 50%;
 }
