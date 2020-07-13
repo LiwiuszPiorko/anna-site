@@ -65,7 +65,7 @@ font-family: 'Special Elite', cursive; */
 }
 .inter{
     height: 10vh;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-size: 3vw;
     background-color: black;
     color: ghostwhite;
@@ -107,7 +107,7 @@ font-family: 'Special Elite', cursive; */
 }
 
 .wrapper div h1{
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Reenie Beanie', cursive, sans-serif;
     font-size: 3.5vw;
     color: ghostwhite;
 }
@@ -142,7 +142,7 @@ font-family: 'Special Elite', cursive; */
 .biogram .modal1 ul li{
     width: 90%;
     height: 90%;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-weight: 100;
     color: black;
     font-size: 1.5vw;
@@ -192,7 +192,7 @@ font-family: 'Special Elite', cursive; */
 .biogram .modal2 ul li{
     width: 90%;
     height: 90%;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-weight: 100;
     color: black;
     font-size: 1vw;
@@ -242,7 +242,7 @@ font-family: 'Special Elite', cursive; */
 .biogram .modal3 ul li{
     width: 90%;
     height: 90%;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-weight: 100;
     color: black;
     font-size: 2vw;
@@ -292,7 +292,7 @@ font-family: 'Special Elite', cursive; */
 .biogram .modal4 ul li{
     width: 90%;
     height: 90%;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-weight: 100;
     color: black;
     font-size: 1vw;
@@ -342,7 +342,7 @@ font-family: 'Special Elite', cursive; */
 }
 
 .items div h1{
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-size: 2.5vw;
     color: ghostwhite;
 }
@@ -388,7 +388,7 @@ font-family: 'Special Elite', cursive; */
 .publications .polish ul li{
     width: 90%;
     height: 90%;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-weight: 100;
     color: black;
     font-size: 1.5vw;
@@ -438,7 +438,7 @@ font-family: 'Special Elite', cursive; */
 .publications .foreign ul li{
     width: 90%;
     height: 90%;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-weight: 400;
     color: black;
     font-size: 1.5vw;
@@ -490,12 +490,12 @@ font-family: 'Special Elite', cursive; */
     padding: .5em;
     font-size: 1vw;
     text-align: justify;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     height: 90%;
 }
 .pro p span{
     font-size: 2vw;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive,sans-serif;
 }
 .footer{
     height: 50vh;
@@ -565,14 +565,14 @@ font-family: 'Special Elite', cursive; */
 }
 .mail .adress h1{
     padding: .3em;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-weight: 400;
     font-size: 1.2vw;
     color: ghostwhite;
 }
 .mail .adress p{
     padding: .3em;
-    font-family: 'Special Elite', cursive;
+    font-family: 'Special Elite', cursive, sans-serif;
     font-weight: 100;
     font-size: 1vw;
     color: ghostwhite;
