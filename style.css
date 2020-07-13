@@ -578,8 +578,8 @@ font-family: 'Special Elite', cursive; */
     color: ghostwhite;
 }
 .mail .image{
-    width: 15em;
-    height: 15em;
+    width: 20em;
+    height: 20em;
     border-radius: 50%;
     background-image: url(img/IMG_20180821_140529994_2.jpg);
     background-position: center;
@@ -711,6 +711,13 @@ font-family: 'Special Elite', cursive; */
     .mail .image{
         width: 6em;
         height: 6em;
+    }
+
+}
+@media(max-width:1200px) and (orientation:landscape){
+    .mail .image{
+        width: 7em;
+        height: 7em;
     }
 
 }
