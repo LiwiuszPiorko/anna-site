@@ -606,25 +606,25 @@ font-family: 'Special Elite', cursive; */
         font-size: 3.5vw;
     }
     .modal1 .hide i{
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .biogram .modal2 ul li{
         font-size: 2.5vw;
     }
     .modal2 .hide i{
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .biogram .modal3 ul li{
         font-size: 4vw;
     }
     .modal3 .hide i{
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .biogram .modal4 ul li{
         font-size: 3vw;
     }
     .modal4 .hide i{
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .publications .polish ul li{
         font-size: 3vw;
@@ -635,10 +635,10 @@ font-family: 'Special Elite', cursive; */
 
     }
     .polish .hide i{
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .foreign .hide i{
-        font-size: 5vw;
+        font-size: 7vw;
     }
     .projects{
         height: 200vh;
