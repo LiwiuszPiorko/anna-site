@@ -51,17 +51,21 @@ font-family: 'Special Elite', cursive; */
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-size: .9vw;
+    font-family: 'Special Elite', cursive, sans-serif;
+    color: ghostwhite;
 }
 .info h1{
     font-family: 'Special Elite', cursive, sans-serif;
     font-size: 2vw;
     color: ghostwhite;
 }
+
 .info p{
     margin-top: 1.5em;
-    font-family: 'Special Elite', cursive, sans-serif;
-    font-size: .9vw;
-    color: ghostwhite;
+}
+.info:hover{
+    font-size: 1.1vw;
 }
 .inter{
     height: 10vh;
