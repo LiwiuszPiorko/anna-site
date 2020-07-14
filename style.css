@@ -582,8 +582,8 @@ font-family: 'Special Elite', cursive; */
     color: ghostwhite;
 }
 .mail .image{
-    width: 20em;
-    height: 20em;
+    width: 15em;
+    height: 15em;
     border-radius: 50%;
     background-image: url(img/IMG_20180821_140529994_2.jpg);
     background-position: center;
